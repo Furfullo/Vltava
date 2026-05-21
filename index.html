@@ -204,13 +204,13 @@
   <div class="grid-4" style="margin-bottom:24px">
     <div class="card" style="border-top: 4px solid var(--e1)">
       <h3>Enverus — Overall Rank</h3>
-      <div class="value" style="color:var(--e1)">49<span style="font-size:1rem;color:var(--muted)">/323</span></div>
-      <div class="sub">Top 15.2% · 34h 50m total</div>
+      <div class="value" style="color:var(--e1)">186<span style="font-size:1rem;color:var(--muted)">/323</span></div>
+      <div class="sub">Top 57.6% · 34h 50m total</div>
     </div>
     <div class="card" style="border-top: 4px solid var(--e2)">
       <h3>Enverus 2 — Overall Rank</h3>
-      <div class="value" style="color:var(--e2)">88<span style="font-size:1rem;color:var(--muted)">/323</span></div>
-      <div class="sub">Top 27.2% · 36h 19m total</div>
+      <div class="value" style="color:var(--e2)">268<span style="font-size:1rem;color:var(--muted)">/323</span></div>
+      <div class="sub">Top 83.0% · 36h 19m total</div>
     </div>
     <div class="card">
       <h3>Time Gap Between Teams</h3>
@@ -229,24 +229,24 @@
       <div class="section-title">Overall Ranking Context</div>
       <div style="margin-bottom:12px">
         <div style="display:flex;justify-content:space-between;margin-bottom:4px">
-          <span><span class="team-badge team-e1">Enverus</span> Rank 49</span>
-          <span style="color:var(--muted);font-size:0.85rem">Top 15.2%</span>
+          <span><span class="team-badge team-e1">Enverus</span> Rank 186</span>
+          <span style="color:var(--muted);font-size:0.85rem">Top 57.6%</span>
         </div>
         <div class="progress-bar-wrap">
-          <div class="progress-bar" style="width:15.2%;background:var(--e1)"></div>
+          <div class="progress-bar" style="width:57.6%;background:var(--e1)"></div>
         </div>
       </div>
       <div>
         <div style="display:flex;justify-content:space-between;margin-bottom:4px">
-          <span><span class="team-badge team-e2">Enverus 2</span> Rank 88</span>
-          <span style="color:var(--muted);font-size:0.85rem">Top 27.2%</span>
+          <span><span class="team-badge team-e2">Enverus 2</span> Rank 268</span>
+          <span style="color:var(--muted);font-size:0.85rem">Top 83.0%</span>
         </div>
         <div class="progress-bar-wrap">
-          <div class="progress-bar" style="width:27.2%;background:var(--e2)"></div>
+          <div class="progress-bar" style="width:83.0%;background:var(--e2)"></div>
         </div>
       </div>
       <div style="margin-top:20px;font-size:0.82rem;color:var(--muted)">
-        Both teams finished in the top third of a 323-team field — a strong result for a relay covering Šumava to Prague.
+        Rankings based on total running time across all legs. Enverus ranked 186th and Enverus 2 ranked 268th of 323 teams.
       </div>
     </div>
 
@@ -382,8 +382,8 @@
 const TOTAL_TEAMS = 323;
 
 const teams = {
-  e1: { id: '8911', name: 'Enverus',   rank: 49,  totalMin: 2090, color: '#56BC2F' },
-  e2: { id: '8950', name: 'Enverus 2', rank: 88,  totalMin: 2179, color: '#292929' }
+  e1: { id: '8911', name: 'Enverus',   rank: 186, totalMin: 2090, color: '#56BC2F' },
+  e2: { id: '8950', name: 'Enverus 2', rank: 268, totalMin: 2179, color: '#292929' }
 };
 
 // Per-leg data: [leg, location, dist, e1Runner, e1Min, e1Rank, e2Runner, e2Min, e2Rank, totalRunners]
