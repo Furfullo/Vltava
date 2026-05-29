@@ -429,32 +429,47 @@ const legData = [
 // Runner summaries: [name, team, legs[], totalMin, totalKm, avgPace, avgRankPct]
 const runners = [
   // Enverus
-  { name: 'Aneta Dufková',     team: 'Enverus',   color: '#56BC2F', legs: [3,14,27], totalMin: 148, totalKm: 32.7, avgPace: 4.53, bestRank:  22, avgRankPct: 43 },
-  { name: 'Patrik Čigáš',      team: 'Enverus',   color: '#56BC2F', legs: [10,23,33], totalMin: 194, totalKm: 36.9, avgPace: 5.26, bestRank: 55, avgRankPct: 55 },
-  { name: 'Jeremy Leakvold',   team: 'Enverus',   color: '#56BC2F', legs: [11,21,35], totalMin: 162, totalKm: 32.1, avgPace: 5.05, bestRank: 52, avgRankPct: 43 },
-  { name: 'Rich Tuers',        team: 'Enverus',   color: '#56BC2F', legs: [6,17,31],  totalMin: 196, totalKm: 36.2, avgPace: 5.41, bestRank: 112, avgRankPct: 61 },
-  { name: 'Hubert Dokoupil',   team: 'Enverus',   color: '#56BC2F', legs: [5,20,30],  totalMin: 159, totalKm: 28.8, avgPace: 5.52, bestRank: 123, avgRankPct: 63 },
-  { name: 'Tomáš Žigo',        team: 'Enverus',   color: '#56BC2F', legs: [8,18,32],  totalMin: 193, totalKm: 34.0, avgPace: 5.68, bestRank: 111, avgRankPct: 63 },
-  { name: 'Martin Kotala',     team: 'Enverus',   color: '#56BC2F', legs: [2,13,25],  totalMin: 187, totalKm: 32.9, avgPace: 5.68, bestRank: 190, avgRankPct: 65 },
-  { name: 'Simona Pastuchová', team: 'Enverus',   color: '#56BC2F', legs: [9,24,34],  totalMin: 131, totalKm: 24.5, avgPace: 5.35, bestRank: 169, avgRankPct: 63 },
-  { name: 'Jeff White',        team: 'Enverus',   color: '#56BC2F', legs: [12,22,36], totalMin: 149, totalKm: 25.0, avgPace: 5.96, bestRank: 223, avgRankPct: 75 },
-  { name: 'Jana Berková',      team: 'Enverus',   color: '#56BC2F', legs: [7,19,29],  totalMin: 169, totalKm: 28.8, avgPace: 5.87, bestRank: 217, avgRankPct: 72 },
-  { name: 'Patrik Tomov',      team: 'Enverus',   color: '#56BC2F', legs: [4,16,28],  totalMin: 184, totalKm: 30.8, avgPace: 5.97, bestRank: 247, avgRankPct: 76 },
-  { name: 'Eliška Orlová',     team: 'Enverus',   color: '#56BC2F', legs: [1,15,26],  totalMin: 204, totalKm: 33.0, avgPace: 6.18, bestRank: 258, avgRankPct: 82 },
+  { name: 'Aneta Dufková',     team: 'Enverus',   color: '#56BC2F', legs: [3,14,27], totalMin: 148, totalKm: 32.7, avgPace: 4.53, bestRank:  22, avgRankPct: 14 },
+  { name: 'Patrik Čigáš',      team: 'Enverus',   color: '#56BC2F', legs: [10,23,33], totalMin: 194, totalKm: 36.9, avgPace: 5.26, bestRank: 55, avgRankPct: 37 },
+  { name: 'Jeremy Leakvold',   team: 'Enverus',   color: '#56BC2F', legs: [11,21,35], totalMin: 162, totalKm: 32.1, avgPace: 5.05, bestRank: 52, avgRankPct: 29 },
+  { name: 'Rich Tuers',        team: 'Enverus',   color: '#56BC2F', legs: [6,17,31],  totalMin: 196, totalKm: 36.2, avgPace: 5.41, bestRank: 112, avgRankPct: 54 },
+  { name: 'Hubert Dokoupil',   team: 'Enverus',   color: '#56BC2F', legs: [5,20,30],  totalMin: 159, totalKm: 28.8, avgPace: 5.52, bestRank: 123, avgRankPct: 55 },
+  { name: 'Tomáš Žigo',        team: 'Enverus',   color: '#56BC2F', legs: [8,18,32],  totalMin: 193, totalKm: 34.0, avgPace: 5.68, bestRank: 111, avgRankPct: 54 },
+  { name: 'Martin Kotala',     team: 'Enverus',   color: '#56BC2F', legs: [2,13,25],  totalMin: 187, totalKm: 32.9, avgPace: 5.68, bestRank: 190, avgRankPct: 67 },
+  { name: 'Simona Pastuchová', team: 'Enverus',   color: '#56BC2F', legs: [9,24,34],  totalMin: 131, totalKm: 24.5, avgPace: 5.35, bestRank: 169, avgRankPct: 64 },
+  { name: 'Jeff White',        team: 'Enverus',   color: '#56BC2F', legs: [12,22,36], totalMin: 149, totalKm: 25.0, avgPace: 5.96, bestRank: 223, avgRankPct: 79 },
+  { name: 'Jana Berková',      team: 'Enverus',   color: '#56BC2F', legs: [7,19,29],  totalMin: 169, totalKm: 28.8, avgPace: 5.87, bestRank: 217, avgRankPct: 74 },
+  { name: 'Patrik Tomov',      team: 'Enverus',   color: '#56BC2F', legs: [4,16,28],  totalMin: 184, totalKm: 30.8, avgPace: 5.97, bestRank: 247, avgRankPct: 80 },
+  { name: 'Eliška Orlová',     team: 'Enverus',   color: '#56BC2F', legs: [1,15,26],  totalMin: 204, totalKm: 33.0, avgPace: 6.18, bestRank: 258, avgRankPct: 83 },
   // Enverus 2
-  { name: 'Jakub Rysavy',      team: 'Enverus 2', color: '#292929', legs: [8,19,32],  totalMin: 166, totalKm: 36.7, avgPace: 4.52, bestRank:  19, avgRankPct: 10 },
-  { name: 'Daniel Iglesias',   team: 'Enverus 2', color: '#292929', legs: [2,14,26],  totalMin: 152, totalKm: 31.5, avgPace: 4.83, bestRank:  60, avgRankPct: 22 },
-  { name: 'Lukas Hejcman',     team: 'Enverus 2', color: '#292929', legs: [12,23,34], totalMin: 120, totalKm: 22.0, avgPace: 5.45, bestRank: 146, avgRankPct: 51 },
+  { name: 'Jakub Rysavy',      team: 'Enverus 2', color: '#292929', legs: [8,19,32],  totalMin: 166, totalKm: 36.7, avgPace: 4.52, bestRank:  19, avgRankPct: 8 },
+  { name: 'Daniel Iglesias',   team: 'Enverus 2', color: '#292929', legs: [2,14,26],  totalMin: 152, totalKm: 31.5, avgPace: 4.83, bestRank:  60, avgRankPct: 20 },
+  { name: 'Lukas Hejcman',     team: 'Enverus 2', color: '#292929', legs: [12,23,34], totalMin: 120, totalKm: 22.0, avgPace: 5.45, bestRank: 146, avgRankPct: 65 },
   { name: 'Christos Plaskasovitis', team: 'Enverus 2', color: '#292929', legs: [4,16,28], totalMin: 168, totalKm: 30.8, avgPace: 5.45, bestRank: 141, avgRankPct: 52 },
-  { name: 'Jakub Kachlík',     team: 'Enverus 2', color: '#292929', legs: [6,18,30],  totalMin: 194, totalKm: 35.5, avgPace: 5.46, bestRank: 165, avgRankPct: 53 },
-  { name: 'Hans Moreno',       team: 'Enverus 2', color: '#292929', legs: [3,13,27],  totalMin: 177, totalKm: 31.1, avgPace: 5.69, bestRank: 166, avgRankPct: 63 },
-  { name: 'Mike Sacker',       team: 'Enverus 2', color: '#292929', legs: [9,24,36],  totalMin: 180, totalKm: 30.4, avgPace: 5.92, bestRank: 222, avgRankPct: 71 },
-  { name: 'Claire Mckenzie',   team: 'Enverus 2', color: '#292929', legs: [11,21,35], totalMin: 193, totalKm: 32.1, avgPace: 6.01, bestRank: 240, avgRankPct: 74 },
-  { name: 'Jieyi Zhou',        team: 'Enverus 2', color: '#292929', legs: [5,20,31],  totalMin: 181, totalKm: 29.6, avgPace: 6.11, bestRank: 189, avgRankPct: 68 },
-  { name: 'Pavel Ahanouski',   team: 'Enverus 2', color: '#292929', legs: [1,15,25],  totalMin: 220, totalKm: 36.0, avgPace: 6.11, bestRank: 239, avgRankPct: 77 },
-  { name: 'Robert Henkhaus',   team: 'Enverus 2', color: '#292929', legs: [10,22,33], totalMin: 230, totalKm: 34.0, avgPace: 6.76, bestRank: 226, avgRankPct: 84 },
-  { name: 'Veronika Bleson',   team: 'Enverus 2', color: '#292929', legs: [7,17,29],  totalMin: 182, totalKm: 26.0, avgPace: 7.00, bestRank: 304, avgRankPct: 93 },
+  { name: 'Jakub Kachlík',     team: 'Enverus 2', color: '#292929', legs: [6,18,30],  totalMin: 194, totalKm: 35.5, avgPace: 5.46, bestRank: 165, avgRankPct: 62 },
+  { name: 'Hans Moreno',       team: 'Enverus 2', color: '#292929', legs: [3,13,27],  totalMin: 177, totalKm: 31.1, avgPace: 5.69, bestRank: 166, avgRankPct: 67 },
+  { name: 'Mike Sacker',       team: 'Enverus 2', color: '#292929', legs: [9,24,36],  totalMin: 180, totalKm: 30.4, avgPace: 5.92, bestRank: 222, avgRankPct: 81 },
+  { name: 'Claire Mckenzie',   team: 'Enverus 2', color: '#292929', legs: [11,21,35], totalMin: 193, totalKm: 32.1, avgPace: 6.01, bestRank: 240, avgRankPct: 76 },
+  { name: 'Jieyi Zhou',        team: 'Enverus 2', color: '#292929', legs: [5,20,31],  totalMin: 181, totalKm: 29.6, avgPace: 6.11, bestRank: 189, avgRankPct: 75 },
+  { name: 'Pavel Ahanouski',   team: 'Enverus 2', color: '#292929', legs: [1,15,25],  totalMin: 220, totalKm: 36.0, avgPace: 6.11, bestRank: 239, avgRankPct: 81 },
+  { name: 'Robert Henkhaus',   team: 'Enverus 2', color: '#292929', legs: [10,22,33], totalMin: 230, totalKm: 34.0, avgPace: 6.76, bestRank: 226, avgRankPct: 87 },
+  { name: 'Veronika Bleson',   team: 'Enverus 2', color: '#292929', legs: [7,17,29],  totalMin: 182, totalKm: 26.0, avgPace: 7.00, bestRank: 304, avgRankPct: 97 },
 ];
+
+// ---- Derive avgRankPct & bestRank from leg data (single source of truth) ----
+runners.forEach(r => {
+  const isE1 = r.team === 'Enverus';
+  let sumPct = 0, best = Infinity;
+  r.legs.forEach(legNum => {
+    const d = legData[legNum - 1];
+    const rank = isE1 ? d[5] : d[8];
+    const total = d[9];
+    sumPct += (rank / total) * 100;
+    if (rank < best) best = rank;
+  });
+  r.avgRankPct = Math.round(sumPct / r.legs.length);
+  r.bestRank = best;
+});
 
 // ===================== HELPERS =====================
 function pace(min, km) { return km > 0 ? (min / km).toFixed(2) : '—'; }
